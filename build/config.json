@@ -1,0 +1,26 @@
+{
+    "logLevel": "info",
+    "logPath": "./logs/olmeda-service.log",
+    "updateUrl": "http://localhost:8080/update",
+    "websocket": {
+        "enabled": true,
+        "serverUrl": "wss://odonto-olmeda-production.up.railway.app",
+        "authToken": "",
+        "port": 8081,
+        "reconnectInterval": 30,
+        "pingInterval": 30,
+        "clinicId": "5561933008585",
+        "apiKey": "48a9f2eb010c13794f7671fb7387f86ebb696d17ac274778405a35419ec5dc91",
+        "instanceId": "OLMEDA-001-LOCAL",
+        "useSSL": true
+    },
+    "database": {
+        "DSN": "Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=D:\\teste\\odontoDB.mdb;DefaultDir=D:\\teste;",
+        "MaxConns": 10
+    },
+    "development": {
+        "enabled": true,
+        "autoRestart": false,
+        "debugLog": true
+    }
+}

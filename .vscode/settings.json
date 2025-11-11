@@ -1,0 +1,12 @@
+{
+    "go.buildFlags": [],
+    "go.toolsEnvVars": {
+        "CGO_ENABLED": "1"
+    },
+    "go.testFlags": ["-v"],
+    "go.useLanguageServer": true,
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--fast"
+    ]
+}

@@ -1,0 +1,37 @@
+2025/01/24 10:48:23.436815 [DEBUG] ================================================================
+2025/01/24 10:48:23.442619 [DEBUG] ================= INICIANDO OLMEDA SERVICE =======================
+2025/01/24 10:48:23.442619 [DEBUG] ================================================================
+2025/01/24 10:48:23.442619 [DEBUG] Informações de Inicialização:
+2025/01/24 10:48:23.443129 [DEBUG] - Caminho do executável: D:\serviceGo\build\olmeda-service.exe
+2025/01/24 10:48:23.443129 [DEBUG] - Diretório de trabalho: D:\serviceGo\build
+2025/01/24 10:48:23.443129 [DEBUG] - Arquivo de log: ./logs/olmeda-service.log
+2025/01/24 10:48:23.443129 [DEBUG] - DSN do banco: Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=D:\teste\odontoDB.mdb;DefaultDir=D:\teste;
+2025/01/24 10:48:23.444160 [DEBUG] - Nível de log: info
+2025/01/24 10:48:23.444160 [DEBUG] Inicializando conexão com o banco de dados...
+2025/01/24 10:48:23.444160 [DEBUG] Iniciando conexão com o banco de dados...
+2025/01/24 10:48:23.444160 [DEBUG] DSN configurado: Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=D:\teste\odontoDB.mdb;DefaultDir=D:\teste;
+2025/01/24 10:48:23.505410 [DEBUG] Conexão com banco estabelecida com sucesso!
+2025/01/24 10:48:23.505410 [DEBUG] Conexão com o banco de dados estabelecida com sucesso
+2025/01/24 10:48:23.505410 [DEBUG] WebSocket está ATIVO:
+2025/01/24 10:48:23.505410 [DEBUG] - Server URL: wss://odonto-olmeda-production.up.railway.app
+2025/01/24 10:48:23.505410 [DEBUG] - Porta: 8081
+2025/01/24 10:48:23.505410 [DEBUG] - Intervalo de Reconexão: 30 segundos
+2025/01/24 10:48:23.505410 [DEBUG] - Intervalo de Ping: 30 segundos
+2025/01/24 10:48:23.505410 [DEBUG] MODO DESENVOLVIMENTO ATIVO:
+2025/01/24 10:48:23.505410 [DEBUG] - Auto Restart: false
+2025/01/24 10:48:23.505410 [DEBUG] - Debug Log: true
+2025/01/24 10:48:23.505410 [DEBUG] Verificando tipo de sessão...
+2025/01/24 10:48:23.511357 [DEBUG] Tipo de sessão: Interativa
+2025/01/24 10:48:23.511357 [DEBUG] Iniciando em modo console (desenvolvimento)
+2025/01/24 10:48:23.511357 Iniciando OlmedaService em modo console...
+2025/01/24 10:48:23.511357 [DEBUG] Serviço iniciado em modo console - aguardando Ctrl+C
+2025/01/24 10:48:23.511357 Pressione Ctrl+C para sair
+2025/01/24 10:48:23.511357 [DEBUG] === Execute: Iniciando execução do serviço ===
+2025/01/24 10:48:23.511357 [DEBUG] Tentando inicializar banco de dados...
+2025/01/24 10:48:23.511357 [DEBUG] Banco de dados inicializado com sucesso!
+2025/01/24 10:48:23.511357 [DEBUG] Iniciando conexão WebSocket...
+2025/01/24 10:48:23.511357 [DEBUG] Iniciando monitor do sistema...
+2025/01/24 10:48:23.530715 [DEBUG] Usando DSN: Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=D:\teste\odontoDB.mdb;DefaultDir=D:\teste;
+2025/01/24 10:48:24.828876 [DEBUG] Conexão WebSocket estabelecida com sucesso
+2025/01/24 10:48:24.828876 [DEBUG] Criando canal de parada...
+2025/01/24 10:48:24.828876 [DEBUG] Alterando estado para: Running
